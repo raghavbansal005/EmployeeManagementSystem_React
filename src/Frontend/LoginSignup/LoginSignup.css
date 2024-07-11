@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* *{
+    border: 1px solid black;
+} */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 100px;
+    background-color: #3D52A0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.text{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: Raleway;
+    text-transform: uppercase;
+}
+
+.inputs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 70px;
+    margin: 10px 0;
+    position: relative;
+    background-color: #D3D9D4;
+    border-radius: 60px;
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input{
+    flex: 1;
+    padding: 10px;
+    height: 20px;
+    width: 300px;
+    font-size: 20px;
+    background: none;  
+    border: none;
+    outline: none;
+} 
+
+.input img{
+    width: 20px;
+    height: 20px;
+}
+
+.submit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.submit a:hover {
+    text-decoration: underline;
+}
+
+.submit1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.submit1 button{
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Raleway;
+}
+
+.error {
+    font-weight: 500;
+    color: red;
+    font-size: 13px;
+    position: absolute;
+    bottom: -18px;
+    left: 40px;
+}
+
+.errorPassword{
+    font-weight: 500;
+    color: red;
+    font-size: 13px;
+    position: absolute;
+    bottom: -34px;
+    left: 40px;
+
+}
